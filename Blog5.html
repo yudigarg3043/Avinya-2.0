@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+            
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: black;
+        }
+        .container{
+            /* border:2px solid black; */
+            border-radius:10px;
+            background-color: #f1f1f1;
+            margin-bottom: 20px;
+
+        }
+        .enquiry{
+            background-color: white;
+            border: 2px solid #9e7a54;
+            color: #9e7a54;
+        }
+        .enquiry:hover{
+            background-color: #9e7a54;
+            color: white;
+        }
+        .card{
+            margin: auto;
+            max-width: 600px;
+        }
+        #com-1{
+            display: none;
+        }
+        .head{
+            border-bottom: 2px solid black;
+        }
+        p{
+            margin-top:15px;
+            font-size: 18px;
+        }
+        .main{
+            background-color: #e2e2da;
+            background-image: linear-gradient(180deg, #e2e2da 0%, #f5f5f1 100%);
+        }
+        img{
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+    </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+            <div class="container-fluid">
+                <a class="navbar-brand" style="font-size: x-large;">Bl<span style="color: #9e7a54; font-size: 38px; font-family: cursive;">o</span>gIt</a>
+                <form class="d-flex align-items-center justify-content-between" role="search">
+                    <a href="#carouselExampleIndicators"><button class="btn me-3 enquiry" type="button">Home</button></a>
+                    <a href="#blogs"><button class="btn me-3 enquiry" type="button">Blogs</button></a>
+                    <a href="#btn"><button class="btn enquiry" type="button">Add Comment</button></a>
+                  </form>
+            </div>
+          </nav>
+    </header>
+<div class="container-fluid main">
+
+<div class="row m-auto">
+<div class="col-12 ">
+<center><h1>Medicine Blogs</h2>
+
+<img class="img-fluid" src="https://img.freepik.com/premium-photo/medecine-capsules-pill-health-prescription_364116-66.jpg"></center>
+<p></p>
+</div>
+</div>
+<div class="row m-auto">
+<div class="col-12">
+<div class="head"><h4> Medicine</h4></div>
+<p>Medicine is the science[1] and practice[2] of caring for patients, managing the diagnosis, prognosis, prevention, treatment, palliation of their injury or disease, and promoting their health. Medicine encompasses a variety of health care practices evolved to maintain and restore health by the prevention and treatment of illness. Contemporary medicine applies biomedical sciences, biomedical research, genetics, and medical technology to diagnose, treat, and prevent injury and disease, typically through pharmaceuticals or surgery, but also through therapies as diverse as psychotherapy, external splints and traction, medical devices, biologics, and ionizing radiation, amongst others.[3]</p>
+</div>
+</div>
+
+<div class="row m-auto">
+<div class="col-12">
+<div class="head"><h4>Main Takeaways:</h4></div>
+<p>Medicine has been practiced since prehistoric times, and for most of this time it was an art (an area of creativity and skill), frequently having connections to the religious and philosophical beliefs of local culture. For example, a medicine man would apply herbs and say prayers for healing, or an ancient philosopher and physician would apply bloodletting according to the theories of humorism.</p>
+    </div>
+</div>
+<div class="row m-auto">
+    <div class="col-12">
+    <div class="head"><h4>Types</h4></div>
+    <p>There are many Types of Medicine:</p>
+    <div class="head"><h4>Antimalarial drugs:</h4></div>
+        <p>Antimalarial drugs are a type of chemical that can be used to treat or prevent malaria. Here are some types of antimalarial drugs:
+            Aryl aminoalcohol compounds: These include quinine, quinidine, chloroquine, amodiaquine, mefloquine, halofantrine, lumefantrine, piperaquine, and tafenoquine.
+            Antifolate compounds: These include pyrimethamine, proguanil, chlorproguanil, and trimethoprim.
+            Artemisinin compounds: These include artemisinin, dihydroartemisinin, artemether, and artesunate.
+            Atovaquone: This drug has a unique mode of action and is sold under the trade name Malarone® when combined with proguanil.</p>
+        <div class="head"><h4>Antibiotics:</h4></div>
+        <p>Antibiotics are medicines that treat and prevent bacterial infections by killing bacteria or stopping them from growing: 
+            How they work
+            Antibiotics are antimicrobial substances that either kill bacteria or stop them from growing. They are classified as either bactericidal (kill bacteria) or bacteriostatic (stop bacteria from growing). 
+            How they are taken
+            Antibiotics can be taken orally (pills, capsules, or liquids), topically (creams, sprays, or ointments), or by injection or intravenously (IV)</p>
+        <div class="head"><h4>Antimalarial drugs:</h4></div>
+        <p> Antimalarial drugs are a type of chemical that can be used to treat or prevent malaria. Here are some types of antimalarial drugs:
+            Aryl aminoalcohol compounds: These include quinine, quinidine, chloroquine, amodiaquine, mefloquine, halofantrine, lumefantrine, piperaquine, and tafenoquine.
+            Antifolate compounds: These include pyrimethamine, proguanil, chlorproguanil, and trimethoprim.
+            Artemisinin compounds: These include artemisinin, dihydroartemisinin, artemether, and artesunate.</p>    
+    </div>
+</div>
+<button class=" col-md btn text-center align-self-center enquiry" id="btn">Add Comment</button>
+        <div class="container mt-5" id="com-1">
+            <div class="card">
+                <div class="card-header">Add Your Comment</div>
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" placeholder="Enter Your Username" class="form-control" id="username" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="Email" class="form-label">Email</label>
+                            <input type="email" placeholder="Enter Your Email" class="form-control" id="Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Comment</label>
+                            <textarea rows="4" id="comment" class="form-control" placeholder="Enter Your Comment" required></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="rating" class="form-label">Rating:</label>
+                            <select id="rating" class="form-control" required="required">
+                              <option value="select" disabled selected>Select a star rating...</option>
+                              <option value="5">5 Star</option>
+                              <option value="4">4 Star</option>
+                              <option value="3">3 Star</option>
+                              <option value="2">2 Star</option>
+                              <option value="1">1 Star</option>
+                            </select>
+                          </div>
+                        <div class="mb-3 row">
+                            <label for="timestamp" class="col-sm-3 col-form-label">Current Time:</label>
+                            <div class="col-sm-9">
+                                <input type="text" readonly class="form-control-plaintext" id="timestamp">
+                            </div>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" id="btn-34" class="btn btn-primary">Submit Comment</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="hiddenComments"></div>
+    </div>
+    <script src="Comment.js"></script>
+</body>
+</html>
